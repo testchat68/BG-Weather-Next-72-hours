@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Времето в България
+Name[en]=Bulgaria Weather
+Comment=Карта на България с температури и фронтове до 72 часа напред
+Comment[en]=Map of Bulgaria with temperatures and fronts up to 72 hours ahead
+Exec=python3 /home/user/bg_vreme.py
+Icon=/home/user/bg_vreme.png
+Terminal=false
+Categories=Utility;Science;
+StartupNotify=true
